@@ -12,3 +12,7 @@ require('packages')
 
 -- Lualine
 local evil_lualine = require('lualine/themes/evil_lualine')
+
+-- rust language server
+require'lspconfig'.rust_analyzer.setup{}
+

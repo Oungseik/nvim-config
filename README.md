@@ -8,7 +8,7 @@ To easily copy and paste the file to the `~/.config/nvim` and use for beginner l
 ## Usage
 
 Run this command to clone this repo to `~/.config/nvim` directory. `~` means non-root user home directory.
-After clone this repository, open the neovim and run `PackerSync` to install.
+After clone this repository, open the neovim and run `PackerSync` and `PackerUpdate` to install.
 
 
 ```bash
