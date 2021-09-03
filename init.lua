@@ -26,6 +26,11 @@ keymap('i', '<c-s>', '<Esc>:w<CR>', {})
 require('packer').startup(function() 
     use 'wbthomason/packer.nvim'
     use 'vimwiki/vimwiki'
+    use {
+  'hoob3rt/lualine.nvim',
+  requires = {'kyazdani42/nvim-web-devicons', opt = true}
+}
+
     --- add other use ... for other packages
 end)
 
@@ -33,3 +38,7 @@ end)
 -- Colors
 -- if installed monoki color, uncomment the line below to use it
 -- vim.g.color = 'monoki'
+
+
+-- Lualine
+local evil_lualine = require('./lualine/themes/evil_lualine')
