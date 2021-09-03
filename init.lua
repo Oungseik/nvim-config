@@ -1,3 +1,6 @@
+-- import lua files stored in ~/.config/nvim/lua does not need to specify 
+-- the lua path.
+
 -- Configuration
 require('config')
 
